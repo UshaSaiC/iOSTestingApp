@@ -1,10 +1,3 @@
-//
-//  SwipeView.swift
-//  iOSTesting
-//
-//  Created by Usha Sai Chintha on 21/09/22.
-//
-
 import SwiftUI
 
 struct SwipeView: View {
