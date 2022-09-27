@@ -12,18 +12,21 @@ struct ContentView: View {
                 List{
                     NavigationLink(destination: ButtonView()) {
                         Text(items[0])
+                            .accessibility(identifier: "Button")
                             .foregroundColor(Color.black)
                             .fontWeight(.medium)
                     }
                     
                     NavigationLink(destination: VerticalScrollView()) {
                         Text(items[1])
+                            .accessibility(identifier: "Scroll")
                             .foregroundColor(Color.black)
                             .fontWeight(.medium)
                     }
                     
                     NavigationLink(destination: SwipeView()) {
                         Text(items[2])
+                            .accessibility(identifier: "Swipe")
                             .foregroundColor(Color.black)
                             .fontWeight(.medium)
                     }
