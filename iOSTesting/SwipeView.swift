@@ -16,7 +16,6 @@ struct SwipeView: View {
                 }
             }
             .navigationTitle("Horizontal Swipe")
-            .accessibility(identifier: "Swipe")
         }
     }
 }

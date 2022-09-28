@@ -46,7 +46,6 @@ struct ButtonView: View {
                 Spacer()
             }
             .navigationTitle("Button")
-            .accessibility(identifier: "Button")
         }
     }
 }

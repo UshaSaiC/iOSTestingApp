@@ -16,7 +16,6 @@ struct VerticalScrollView: View {
                 }
             }
             .navigationTitle("Vertical Scroll")
-            .accessibility(identifier: "Scroll")
             
         }
     }
