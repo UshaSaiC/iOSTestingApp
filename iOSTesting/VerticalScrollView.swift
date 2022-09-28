@@ -11,11 +11,12 @@ struct VerticalScrollView: View {
                             .font(.largeTitle)
                             .frame(width: 200, height: 200)
                             .background(Color.accentColor)
-                            .accessibility(hint: Text("Displays a vertical swipe view"))
+                            .accessibility(identifier: "Scroll")
                     }
                 }
             }
             .navigationTitle("Vertical Scroll")
+            .accessibility(identifier: "Scroll")
             
         }
     }

@@ -14,10 +14,10 @@ struct ButtonView: View {
                 VStack(spacing : 10) {
                     TextField("First Name", text: $firstName)
                         .font(.system(size: 25))
-                        .accessibility(value: Text("First Name"))
+                        .accessibility(identifier: "First Name")
                     TextField("Last Name", text: $lastName)
                         .font(.system(size: 25))
-                        .accessibility(value: Text("Last Name"))
+                        .accessibility(identifier: "Last Name")
                 }
                 .padding(.leading, 10)
                 Spacer()
@@ -40,12 +40,13 @@ struct ButtonView: View {
                     Text("Name : \(name)")
                         .font(.system(size: 30))
                         .fontWeight(.semibold)
-                        .accessibility(hint: Text("Displays the name"))
+                        .accessibility(identifier: "Displays the name")
                 }
                 
                 Spacer()
             }
             .navigationTitle("Button")
+            .accessibility(identifier: "Button")
         }
     }
 }

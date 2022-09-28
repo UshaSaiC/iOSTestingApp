@@ -11,11 +11,12 @@ struct SwipeView: View {
                             .font(.largeTitle)
                             .frame(width: 200, height: 200)
                             .background(Color.accentColor)
-                            .accessibility(hint: Text("Displays a horizontal swipe view"))
+                            .accessibility(identifier: "Swipe")
                     }
                 }
             }
-            .navigationTitle("Horizontal Swipe")  
+            .navigationTitle("Horizontal Swipe")
+            .accessibility(identifier: "Swipe")
         }
     }
 }
