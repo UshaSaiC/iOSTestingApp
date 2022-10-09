@@ -44,6 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B261D53928F36E6600DA15F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2B75C4628DADA2C00408D19 /* ContentView.swift */,
+				B2B75C5528DAE76400408D19 /* ButtonView.swift */,
+				B2B75C5728DAF52400408D19 /* SwipeView.swift */,
+				B2B75C5B28DAF71600408D19 /* VerticalScrollView.swift */,
+				B2CBE4FD28F298CD0028C841 /* CountryView.swift */,
+				B2CBE4F728F1FB140028C841 /* AddressDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B261D53A28F36E7100DA15F6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B261D53128F35CE400DA15F6 /* NumbersOnly.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B2B75C3828DADA2C00408D19 = {
 			isa = PBXGroup;
 			children = (
@@ -64,13 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				B2B75C4428DADA2C00408D19 /* iOSTestingApp.swift */,
-				B2B75C4628DADA2C00408D19 /* ContentView.swift */,
-				B2B75C5528DAE76400408D19 /* ButtonView.swift */,
-				B2B75C5728DAF52400408D19 /* SwipeView.swift */,
-				B2B75C5B28DAF71600408D19 /* VerticalScrollView.swift */,
-				B2CBE4FD28F298CD0028C841 /* CountryView.swift */,
-				B261D53128F35CE400DA15F6 /* NumbersOnly.swift */,
-				B2CBE4F728F1FB140028C841 /* AddressDetailsView.swift */,
+				B261D53A28F36E7100DA15F6 /* Extension */,
+				B261D53928F36E6600DA15F6 /* View */,
 				B2B75C4828DADA2D00408D19 /* Assets.xcassets */,
 				B2B75C4A28DADA2D00408D19 /* Preview Content */,
 			);
