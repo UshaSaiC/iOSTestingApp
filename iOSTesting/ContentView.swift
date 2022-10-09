@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var items = ["Button", "Vertical Scroll", "Horizontal Swipe"]
+    var items = ["Button", "Vertical Scroll", "Horizontal Swipe", "Address Details"]
     @Environment(\.managedObjectContext) private var viewContext
     
     var body: some View {
@@ -27,6 +27,13 @@ struct ContentView: View {
                     NavigationLink(destination: SwipeView()) {
                         Text(items[2])
                             .accessibility(identifier: "Swipe")
+                            .foregroundColor(Color.black)
+                            .fontWeight(.medium)
+                    }
+                    
+                    NavigationLink(destination: AddressDetailsView()) {
+                        Text(items[3])
+                            .accessibility(identifier: "Address")
                             .foregroundColor(Color.black)
                             .fontWeight(.medium)
                     }
