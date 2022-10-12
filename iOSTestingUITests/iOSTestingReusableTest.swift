@@ -22,14 +22,21 @@ final class iOSTestingReusableTest: iOSTestingBaseTest {
 //    }
 //
 //    func whenEnteredFirstAndLastName() {
-//        app.textFields["First Name"].tap()
-//        app.textFields["First Name"].typeText("Usha Sai")
-//        app.textFields["Last Name"].tap()
-//        app.textFields["Last Name"].typeText("Chintha")
+//        if app.textFields["First Name"].exists {
+//            app.textFields["First Name"].tap()
+//            app.textFields["First Name"].typeText("Usha Sai")
+//        }
+//        if app.textFields["Last Name"].exists {
+//            app.textFields["Last Name"].tap()
+//            app.textFields["Last Name"].typeText("Chintha")
+//        }
 //    }
 //
-//    func whenClickedOnGetNameButton() {
+//    func whenClickedOnGetNameButtonAndClosedKeypad() {
 //        app.buttons["Get Name"].tap()
+//                   if app.keyboards.buttons["Return"].exists {
+//                        app.keyboards.buttons["Return"].tap()
+//                    }
 //    }
 //
 //    func thenShouldSeeNameDisplayed() {
@@ -65,10 +72,14 @@ extension iOSTestingBaseTest {
     
     func whenEnteredFirstAndLastName() {
         XCTContext.runActivity(named: "When entered First name and Last name") { _ in
-            app.textFields["First Name"].tap()
-            app.textFields["First Name"].typeText("Usha Sai")
-            app.textFields["Last Name"].tap()
-            app.textFields["Last Name"].typeText("Chintha")
+            if app.textFields["First Name"].exists {
+                app.textFields["First Name"].tap()
+                app.textFields["First Name"].typeText("Usha Sai")
+            }
+            if app.textFields["Last Name"].exists {
+                app.textFields["Last Name"].tap()
+                app.textFields["Last Name"].typeText("Chintha")
+            }
         }
     }
     

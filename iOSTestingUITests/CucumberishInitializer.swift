@@ -8,32 +8,40 @@ class CucumberishInitializer: NSObject {
             XCUIApplication().launch()
         })
         
-        Given("App is Ready") { (args, userInfo) -> Void in            self.waitForElementToAppear(XCUIApplication().otherElements["WeatherSearchView"])
+        Given("App is Ready") { (args, userInfo) -> Void in
+            self.waitForElementToAppear(XCUIApplication().buttons["Button"])
+            XCTAssertTrue(XCUIApplication().buttons["Button"].exists)
         }
         
         When("Clicked on Button") { (args, userInfo) -> Void in
-            let searchBar = XCUIApplication().otherElements["SearchField"]
-            searchBar.tap()
-            let text = (args?[0])!
-            searchBar.typeText(text)
+            XCUIApplication().buttons["Button"].tap()
         }
         
         When("entered First name and Last name") { (args, userInfo) -> Void in
-            let text = (args?[0])!
-            self.waitForElementToAppear(XCUIApplication().cells.staticTexts[text])
-        }
-
-        When("clicked on Get Name Button and Closing Keypad") { (args, userInfo) -> Void in
-            let text = (args?[0])!
-            XCUIApplication().cells.staticTexts[text].tap()
+            if XCUIApplication().textFields["First Name"].exists {
+                XCUIApplication().textFields["First Name"].tap()
+                XCUIApplication().textFields["First Name"].typeText("Usha Sai")
+            }
+            if XCUIApplication().textFields["Last Name"].exists {
+                XCUIApplication().textFields["Last Name"].tap()
+                XCUIApplication().textFields["Last Name"].typeText("Chintha")
+            }
         }
         
-        Then("name is displayed") { (args, userInfo) -> Void in            self.waitForElementToAppear(XCUIApplication().otherElements["WeatherDetailView"])
+        When("clicked on Get Name Button and Closing Keypad") { (args, userInfo) -> Void in
+            XCUIApplication().buttons["Get Name"].tap()
+            if XCUIApplication().keyboards.buttons["Return"].exists {
+                XCUIApplication().keyboards.buttons["Return"].tap()
+            }
+        }
+        
+        Then("name is displayed") { (args, userInfo) -> Void in
+            XCTAssertTrue(XCUIApplication().staticTexts["Name : Usha Sai Chintha"].exists)
         }
         
         let bundle = Bundle(for: CucumberishInitializer.self)
-        Cucumberish.executeFeatures(inDirectory: "Features", from: bundle, includeTags: self.getTags(), excludeTags: nil)
-
+        Cucumberish.executeFeatures(inDirectory: "Feature", from: bundle, includeTags: self.getTags(), excludeTags: nil)
+        
     }
     
     class func waitForElementToAppear(_ element: XCUIElement){

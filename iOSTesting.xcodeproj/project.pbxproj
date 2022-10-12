@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		683FA9EE334FADB977B24077 /* Pods_iOSTesting_iOSTestingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1DF2D0470D6E46C786DE9C /* Pods_iOSTesting_iOSTestingUITests.framework */; };
 		ADAE930FFB85BE04D44634EF /* Pods_iOSTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5E06C22A9AB7793CFFF746 /* Pods_iOSTesting.framework */; };
-		B212513028F5EC8B00682CEA /* iOSTestingButtonViewFeature.feature in Resources */ = {isa = PBXBuildFile; fileRef = B212512F28F5EC8B00682CEA /* iOSTestingButtonViewFeature.feature */; };
 		B23FC4C928F61850002DAE05 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FC4C828F61850002DAE05 /* CucumberishLoader.m */; };
 		B261D53228F35CE400DA15F6 /* NumbersOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B261D53128F35CE400DA15F6 /* NumbersOnly.swift */; };
+		B28D333C28F6C0820007C4D7 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = B28D333B28F6C0820007C4D7 /* Features */; };
 		B2B75C4528DADA2C00408D19 /* iOSTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B75C4428DADA2C00408D19 /* iOSTestingApp.swift */; };
 		B2B75C4928DADA2D00408D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B75C4828DADA2D00408D19 /* Assets.xcassets */; };
 		B2B75C4C28DADA2D00408D19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B75C4B28DADA2D00408D19 /* Preview Assets.xcassets */; };
@@ -43,10 +43,10 @@
 		598B1724FE787D173E8EA87C /* Pods-iOSTesting-iOSTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTesting-iOSTestingUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTesting-iOSTestingUITests/Pods-iOSTesting-iOSTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95E6F3915A4C7CE7AEDD1670 /* Pods-iOSTesting-iOSTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTesting-iOSTestingUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSTesting-iOSTestingUITests/Pods-iOSTesting-iOSTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF1DF2D0470D6E46C786DE9C /* Pods_iOSTesting_iOSTestingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTesting_iOSTestingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B212512F28F5EC8B00682CEA /* iOSTestingButtonViewFeature.feature */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSTestingButtonViewFeature.feature; sourceTree = "<group>"; };
 		B23FC4C728F61850002DAE05 /* iOSTestingUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTestingUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B23FC4C828F61850002DAE05 /* CucumberishLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CucumberishLoader.m; sourceTree = "<group>"; };
 		B261D53128F35CE400DA15F6 /* NumbersOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersOnly.swift; sourceTree = "<group>"; };
+		B28D333B28F6C0820007C4D7 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		B2B75C4128DADA2C00408D19 /* iOSTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B75C4428DADA2C00408D19 /* iOSTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingApp.swift; sourceTree = "<group>"; };
 		B2B75C4628DADA2C00408D19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,14 +107,6 @@
 				AF1DF2D0470D6E46C786DE9C /* Pods_iOSTesting_iOSTestingUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B23FC4C628F617C1002DAE05 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				B212512F28F5EC8B00682CEA /* iOSTestingButtonViewFeature.feature */,
-			);
-			path = Features;
 			sourceTree = "<group>";
 		};
 		B261D53928F36E6600DA15F6 /* View */ = {
@@ -186,7 +178,7 @@
 				B2F95E7F28F5D2F900A9082C /* iOSTestingWithBaseTest.swift */,
 				B2F95E7B28F5CD7500A9082C /* iOSTestingReusableTest.swift */,
 				B2E3E97E28F37D8C002E4CAA /* iOSTestingUITestsLaunchTests.swift */,
-				B23FC4C628F617C1002DAE05 /* Features */,
+				B28D333B28F6C0820007C4D7 /* Features */,
 				B23FC4C828F61850002DAE05 /* CucumberishLoader.m */,
 				B23FC4C728F61850002DAE05 /* iOSTestingUITests-Bridging-Header.h */,
 				B2FE914F28F685B60075C3F6 /* CucumberishInitializer.swift */,
@@ -288,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B212513028F5EC8B00682CEA /* iOSTestingButtonViewFeature.feature in Resources */,
+				B28D333C28F6C0820007C4D7 /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
