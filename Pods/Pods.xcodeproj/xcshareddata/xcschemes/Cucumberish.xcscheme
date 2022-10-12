@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2B75C4028DADA2C00408D19"
-               BuildableName = "iOSTesting.app"
-               BlueprintName = "iOSTesting"
-               ReferencedContainer = "container:iOSTesting.xcodeproj">
+               BlueprintIdentifier = "E9023FEC10B3ABBA3DA6D590AE39248B"
+               BuildableName = "Cucumberish.framework"
+               BlueprintName = "Cucumberish"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2E3E97928F37D8C002E4CAA"
-               BuildableName = "iOSTestingUITests.xctest"
-               BlueprintName = "iOSTestingUITests"
-               ReferencedContainer = "container:iOSTesting.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -50,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B2B75C4028DADA2C00408D19"
-            BuildableName = "iOSTesting.app"
-            BlueprintName = "iOSTesting"
-            ReferencedContainer = "container:iOSTesting.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -67,16 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B2B75C4028DADA2C00408D19"
-            BuildableName = "iOSTesting.app"
-            BlueprintName = "iOSTesting"
-            ReferencedContainer = "container:iOSTesting.xcodeproj">
+            BlueprintIdentifier = "E9023FEC10B3ABBA3DA6D590AE39248B"
+            BuildableName = "Cucumberish.framework"
+            BlueprintName = "Cucumberish"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

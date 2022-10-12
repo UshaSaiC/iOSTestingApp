@@ -13,7 +13,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "NO"
+            parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2E3E97928F37D8C002E4CAA"
@@ -21,23 +22,6 @@
                BlueprintName = "iOSTestingUITests"
                ReferencedContainer = "container:iOSTesting.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "iOSTestingBaseTest">
-               </Test>
-               <Test
-                  Identifier = "iOSTestingReusableTest">
-               </Test>
-               <Test
-                  Identifier = "iOSTestingUITestsLaunchTests">
-               </Test>
-               <Test
-                  Identifier = "iOSTestingWithBaseTest">
-               </Test>
-               <Test
-                  Identifier = "iOSTestingWithoutBaseTest">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
