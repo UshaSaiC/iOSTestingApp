@@ -1,0 +1,20 @@
+PODS:
+  - Cucumberish (1.4.0)
+  - EyesXCUI (8.11.0)
+
+DEPENDENCIES:
+  - Cucumberish
+  - EyesXCUI
+
+SPEC REPOS:
+  trunk:
+    - Cucumberish
+    - EyesXCUI
+
+SPEC CHECKSUMS:
+  Cucumberish: 6cbd0c1f50306b369acebfe7d9f514c9c287d26c
+  EyesXCUI: b9329c386995764413eea826b345e2c8aac2bb94
+
+PODFILE CHECKSUM: f5a5245a38ff851efe63319251675389ebf2e0a8
+
+COCOAPODS: 1.11.3
