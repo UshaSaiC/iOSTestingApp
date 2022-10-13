@@ -21,6 +21,29 @@
                BlueprintName = "iOSTestingUITests"
                ReferencedContainer = "container:iOSTesting.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "iOSTestingBaseTest">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingGesturesAndActions">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingLocatorStrategies">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingReusableTest">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingUITestsLaunchTests">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingWithBaseTest">
+               </Test>
+               <Test
+                  Identifier = "iOSTestingWithoutBaseTest">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
