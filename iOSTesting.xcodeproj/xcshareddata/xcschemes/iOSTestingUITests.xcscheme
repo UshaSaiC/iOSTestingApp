@@ -26,6 +26,9 @@
                   Identifier = "iOSTestingBaseTest">
                </Test>
                <Test
+                  Identifier = "iOSTestingLocatorStrategies">
+               </Test>
+               <Test
                   Identifier = "iOSTestingReusableTest">
                </Test>
                <Test

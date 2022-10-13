@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462D36E528F7FBC600F6D2EE /* iOSTestingGesturesAndActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462D36E428F7FBC600F6D2EE /* iOSTestingGesturesAndActions.swift */; };
+		46D0022D28F7AB6F00E82B77 /* iOSTestingLocatorStrategies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0022C28F7AB6F00E82B77 /* iOSTestingLocatorStrategies.swift */; };
 		683FA9EE334FADB977B24077 /* Pods_iOSTesting_iOSTestingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1DF2D0470D6E46C786DE9C /* Pods_iOSTesting_iOSTestingUITests.framework */; };
 		ADAE930FFB85BE04D44634EF /* Pods_iOSTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5E06C22A9AB7793CFFF746 /* Pods_iOSTesting.framework */; };
 		B23FC4C928F61850002DAE05 /* CucumberishLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B23FC4C828F61850002DAE05 /* CucumberishLoader.m */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462D36E428F7FBC600F6D2EE /* iOSTestingGesturesAndActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingGesturesAndActions.swift; sourceTree = "<group>"; };
+		4674113328F6CCB900659E6D /* .talismanrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = .talismanrc; path = ../../../Desktop/.talismanrc; sourceTree = "<group>"; };
+		4674113428F6CCC200659E6D /* .talismanrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .talismanrc; sourceTree = "<group>"; };
+		46D0022C28F7AB6F00E82B77 /* iOSTestingLocatorStrategies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestingLocatorStrategies.swift; sourceTree = "<group>"; };
 		598B1724FE787D173E8EA87C /* Pods-iOSTesting-iOSTestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTesting-iOSTestingUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTesting-iOSTestingUITests/Pods-iOSTesting-iOSTestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		95E6F3915A4C7CE7AEDD1670 /* Pods-iOSTesting-iOSTestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTesting-iOSTestingUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSTesting-iOSTestingUITests/Pods-iOSTesting-iOSTestingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AF1DF2D0470D6E46C786DE9C /* Pods_iOSTesting_iOSTestingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTesting_iOSTestingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +139,7 @@
 		B2B75C3828DADA2C00408D19 = {
 			isa = PBXGroup;
 			children = (
+				4674113428F6CCC200659E6D /* .talismanrc */,
 				B2B75C4328DADA2C00408D19 /* iOSTesting */,
 				B2E3E97B28F37D8C002E4CAA /* iOSTestingUITests */,
 				B2B75C4228DADA2C00408D19 /* Products */,
@@ -174,14 +181,17 @@
 			isa = PBXGroup;
 			children = (
 				B2F95E7D28F5CFA800A9082C /* iOSTestingWithoutBaseTest.swift */,
+				46D0022C28F7AB6F00E82B77 /* iOSTestingLocatorStrategies.swift */,
 				B2F95E7928F5C88F00A9082C /* iOSTestingBaseTest.swift */,
 				B2F95E7F28F5D2F900A9082C /* iOSTestingWithBaseTest.swift */,
-				B2F95E7B28F5CD7500A9082C /* iOSTestingReusableTest.swift */,
-				B2E3E97E28F37D8C002E4CAA /* iOSTestingUITestsLaunchTests.swift */,
+				4674113328F6CCB900659E6D /* .talismanrc */,
 				B28D333B28F6C0820007C4D7 /* Features */,
 				B23FC4C828F61850002DAE05 /* CucumberishLoader.m */,
 				B23FC4C728F61850002DAE05 /* iOSTestingUITests-Bridging-Header.h */,
 				B2FE914F28F685B60075C3F6 /* CucumberishInitializer.swift */,
+				462D36E428F7FBC600F6D2EE /* iOSTestingGesturesAndActions.swift */,
+				B2E3E97E28F37D8C002E4CAA /* iOSTestingUITestsLaunchTests.swift */,
+				B2F95E7B28F5CD7500A9082C /* iOSTestingReusableTest.swift */,
 			);
 			path = iOSTestingUITests;
 			sourceTree = "<group>";
@@ -373,7 +383,9 @@
 				B23FC4C928F61850002DAE05 /* CucumberishLoader.m in Sources */,
 				B2F95E8028F5D2F900A9082C /* iOSTestingWithBaseTest.swift in Sources */,
 				B2E3E97F28F37D8C002E4CAA /* iOSTestingUITestsLaunchTests.swift in Sources */,
+				462D36E528F7FBC600F6D2EE /* iOSTestingGesturesAndActions.swift in Sources */,
 				B2F95E7E28F5CFA800A9082C /* iOSTestingWithoutBaseTest.swift in Sources */,
+				46D0022D28F7AB6F00E82B77 /* iOSTestingLocatorStrategies.swift in Sources */,
 				B2FE915028F685B70075C3F6 /* CucumberishInitializer.swift in Sources */,
 				B2F95E7A28F5C88F00A9082C /* iOSTestingBaseTest.swift in Sources */,
 				B2F95E7C28F5CD7500A9082C /* iOSTestingReusableTest.swift in Sources */,

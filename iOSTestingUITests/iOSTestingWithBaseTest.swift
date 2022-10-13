@@ -3,6 +3,7 @@ import XCTest
 final class iOSTestingWithBaseTest: iOSTestingBaseTest {
     
     func testNavigateToButtonsPageAndGetName() {
+        XCTAsyncAssert(app.buttons["Button"])
         app.buttons["Button"].tap()
         if app.textFields["First Name"].exists {
             app.textFields["First Name"].tap()
@@ -17,6 +18,5 @@ final class iOSTestingWithBaseTest: iOSTestingBaseTest {
         }
         app.buttons["Get Name"].tap()
                 XCTAssertTrue(app.staticTexts["Name : Usha Sai Chintha"].exists)
-        
     }
 }
