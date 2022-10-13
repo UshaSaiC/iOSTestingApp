@@ -1,10 +1,10 @@
-name: chapter-2 iOS starter workflow
+name: xcui-demo-vodqa iOS starter workflow
 
 on:
   push:
-    branches: [ "chapter-2" ]
+    branches: [ "xcui-demo-vodqa" ]
   pull_request:
-    branches: [ "chapter-2" ]
+    branches: [ "xcui-demo-vodqa" ]
 
 jobs:
   build:
