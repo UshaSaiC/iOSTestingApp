@@ -21,3 +21,9 @@ jobs:
         run: |
           xcodebuild test -workspace iOSTesting.xcworkspace -scheme iOSTestingUITests -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' -resultBundlePath TestResults
           xchtmlreport -r TestResults  
+          - name: UITests execution results
+  uses: actions/upload-artifact@v2
+  with:
+      name: HTML report
+      path: /index.html
+      retention-days: 2
