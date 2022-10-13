@@ -1,0 +1,23 @@
+name: chapter-2 iOS starter workflow
+
+on:
+  push:
+    branches: [ "chapter-2" ]
+  pull_request:
+    branches: [ "chapter-2" ]
+
+jobs:
+  build:
+    name: Build and Test default scheme using any available iPhone simulator
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set Default Scheme
+        run: |
+          brew install XCTestHtmlReport/xchtmlreport/xchtmlreport
+      - name: Test
+        run: |
+          xcodebuild test -workspace iOSTesting.xcworkspace -scheme iOSTestingUITests -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.0' -resultBundlePath TestResults
+          xchtmlreport -r TestResults  
