@@ -1,0 +1,615 @@
+Test iOSTestingUITests
+
+-------- Test target iOSTestingUITests --------
+	-------- iOSTestingUITests-Runner (45267) --------
+	2022-10-13 16:36:39.656797+0530 iOSTestingUITests-Runner[45267:511010] Running tests...
+	objc[45267]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x13a981028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x13ac6f218). One of the two will be used. Which one is undefined.
+	Test Suite 'Selected tests' started at 2022-10-13 16:36:40.382
+	Test Suite 'iOSTestingUITests-Runner.app' started at 2022-10-13 16:36:40.384
+	Test Suite 'CCIButtonView' started at 2022-10-13 16:36:40.384
+	Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' started.
+	    t =     0.00s Start Test at 2022-10-13 16:36:40.387
+	    t =     0.04s Set Up
+	    t =     0.04s Open com.thoughtworks.iOSTesting
+	    t =     0.06s     Launch com.thoughtworks.iOSTesting
+	    t =     0.48s         Setting up automation session
+	    t =     1.36s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:43.591306+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+	    t =     3.21s Given App is Ready
+	    t =     3.22s     Checking existence of `"Button" Button`
+	2022-10-13 16:36:43.798908+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+	2022-10-13 16:36:43.799541+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+	    t =     3.41s When I Click on Button
+	    t =     3.42s     Tap "Button" Button
+	    t =     3.42s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     3.43s         Find the "Button" Button
+	    t =     3.47s         Check for interrupting elements affecting "Button" Button
+	    t =     3.51s         Synthesize event
+	    t =     3.83s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:44.251244+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+	2022-10-13 16:36:44.251540+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter First Name"
+	    t =     3.87s And I Enter First Name
+	    t =     3.87s     Checking existence of `"First Name" TextField`
+	    t =     3.93s     Tap "First Name" TextField
+	    t =     3.93s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     4.38s         Find the "First Name" TextField
+	    t =     4.42s         Check for interrupting elements affecting "First Name" TextField
+	    t =     4.44s         Synthesize event
+	    t =     4.74s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     5.04s     Type 'Usha Sai' into "First Name" TextField
+	    t =     5.04s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     5.51s         Find the "First Name" TextField
+	    t =     5.58s         Check for interrupting elements affecting "First Name" TextField
+	    t =     5.62s         Synthesize event
+	    t =     5.97s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:46.373649+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter First Name" passed
+	2022-10-13 16:36:46.373901+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter Last Name"
+	    t =     5.99s And I Enter Last Name
+	    t =     5.99s     Checking existence of `"Last Name" TextField`
+	    t =     6.04s     Tap "Last Name" TextField
+	    t =     6.04s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     6.06s         Find the "Last Name" TextField
+	    t =     6.10s         Check for interrupting elements affecting "Last Name" TextField
+	    t =     6.14s         Synthesize event
+	    t =     6.44s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     6.47s     Type 'Chintha' into "Last Name" TextField
+	    t =     6.47s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     6.49s         Find the "Last Name" TextField
+	    t =     6.53s         Check for interrupting elements affecting "Last Name" TextField
+	    t =     6.57s         Synthesize event
+	    t =     6.90s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:47.324607+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter Last Name" passed
+	2022-10-13 16:36:47.325071+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+	    t =     6.94s And I Click on Get Name Button
+	    t =     6.94s     Tap "Get Name" Button
+	    t =     6.94s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     6.97s         Find the "Get Name" Button
+	    t =     7.02s         Check for interrupting elements affecting "Get Name" Button
+	    t =     7.05s         Synthesize event
+	    t =     7.35s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:47.762531+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+	2022-10-13 16:36:47.762715+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And Close Keypad"
+	    t =     7.38s And Close Keypad
+	    t =     7.38s     Checking existence of `"Return" Button`
+	    t =     7.42s     Tap "Return" Button
+	    t =     7.43s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     7.44s         Find the "Return" Button
+	    t =     7.49s         Check for interrupting elements affecting "Return" Button
+	    t =     7.53s         Synthesize event
+	    t =     7.83s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:48.570972+0530 iOSTestingUITests-Runner[45267:511010] Step: "And Close Keypad" passed
+	2022-10-13 16:36:48.571337+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should See Name being Displayed"
+	    t =     8.19s Then I Should See Name being Displayed
+	    t =     8.19s     Checking existence of `"Name : Usha Sai Chintha" StaticText`
+	2022-10-13 16:36:48.599373+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should See Name being Displayed" passed
+	    t =     8.22s Tear Down
+	Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' passed (8.423 seconds).
+	Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' started.
+	    t =     0.00s Start Test at 2022-10-13 16:36:48.813
+	    t =     0.03s Set Up
+	    t =     0.03s Open com.thoughtworks.iOSTesting
+	    t =     0.05s     Launch com.thoughtworks.iOSTesting
+	    t =     0.05s         Terminate com.thoughtworks.iOSTesting:45278
+	    t =     1.36s         Setting up automation session
+	    t =     2.13s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:52.653000+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+	    t =     3.84s Given App is Ready
+	    t =     3.85s     Checking existence of `"Button" Button`
+	2022-10-13 16:36:52.840801+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+	2022-10-13 16:36:52.841038+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+	    t =     4.03s When I Click on Button
+	    t =     4.03s     Tap "Button" Button
+	    t =     4.03s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     4.05s         Find the "Button" Button
+	    t =     4.08s         Check for interrupting elements affecting "Button" Button
+	    t =     4.11s         Synthesize event
+	    t =     4.43s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:53.254900+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+	2022-10-13 16:36:53.255162+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+	    t =     4.44s And I Click on Get Name Button
+	    t =     4.45s     Tap "Get Name" Button
+	    t =     4.45s         Wait for com.thoughtworks.iOSTesting to idle
+	    t =     4.97s         Find the "Get Name" Button
+	    t =     5.02s         Check for interrupting elements affecting "Get Name" Button
+	    t =     5.05s         Synthesize event
+	    t =     5.34s         Wait for com.thoughtworks.iOSTesting to idle
+	2022-10-13 16:36:54.185345+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+	2022-10-13 16:36:54.185691+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should Not See Name being Displayed"
+	    t =     5.38s Then I Should Not See Name being Displayed
+	    t =     5.38s     Get number of matches for: Elements containing elements matching predicate 'label CONTAINS "Name"'
+	2022-10-13 16:36:54.245449+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should Not See Name being Displayed" passed
+	    t =     5.44s Tear Down
+	Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' passed (5.649 seconds).
+	Test Suite 'CCIButtonView' passed at 2022-10-13 16:36:54.461.
+		 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.077) seconds
+	Test Suite 'iOSTestingUITests-Runner.app' passed at 2022-10-13 16:36:54.465.
+		 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.081) seconds
+	Test Suite 'iOSTestingUITests.xctest' started at 2022-10-13 16:36:54.466
+	Test Suite 'iOSTestingUITests.xctest' passed at 2022-10-13 16:36:54.466.
+		 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+	Test Suite 'Selected tests' passed at 2022-10-13 16:36:54.467.
+		 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.086) seconds
+		-------- Run test suite Selected tests --------
+		2022-10-13 16:36:39.656797+0530 iOSTestingUITests-Runner[45267:511010] Running tests...
+		objc[45267]: Class SBFCARendererImageRepresentation is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/SpringBoardFoundation.framework/SpringBoardFoundation (0x13a981028) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PaperBoardUI.framework/PaperBoardUI (0x13ac6f218). One of the two will be used. Which one is undefined.
+		Test Suite 'Selected tests' started at 2022-10-13 16:36:40.382
+		Test Suite 'iOSTestingUITests-Runner.app' started at 2022-10-13 16:36:40.384
+		Test Suite 'CCIButtonView' started at 2022-10-13 16:36:40.384
+		Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' started.
+		    t =     0.00s Start Test at 2022-10-13 16:36:40.387
+		    t =     0.04s Set Up
+		    t =     0.04s Open com.thoughtworks.iOSTesting
+		    t =     0.06s     Launch com.thoughtworks.iOSTesting
+		    t =     0.48s         Setting up automation session
+		    t =     1.36s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:43.591306+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+		    t =     3.21s Given App is Ready
+		    t =     3.22s     Checking existence of `"Button" Button`
+		2022-10-13 16:36:43.798908+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+		2022-10-13 16:36:43.799541+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+		    t =     3.41s When I Click on Button
+		    t =     3.42s     Tap "Button" Button
+		    t =     3.42s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     3.43s         Find the "Button" Button
+		    t =     3.47s         Check for interrupting elements affecting "Button" Button
+		    t =     3.51s         Synthesize event
+		    t =     3.83s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:44.251244+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+		2022-10-13 16:36:44.251540+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter First Name"
+		    t =     3.87s And I Enter First Name
+		    t =     3.87s     Checking existence of `"First Name" TextField`
+		    t =     3.93s     Tap "First Name" TextField
+		    t =     3.93s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     4.38s         Find the "First Name" TextField
+		    t =     4.42s         Check for interrupting elements affecting "First Name" TextField
+		    t =     4.44s         Synthesize event
+		    t =     4.74s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     5.04s     Type 'Usha Sai' into "First Name" TextField
+		    t =     5.04s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     5.51s         Find the "First Name" TextField
+		    t =     5.58s         Check for interrupting elements affecting "First Name" TextField
+		    t =     5.62s         Synthesize event
+		    t =     5.97s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:46.373649+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter First Name" passed
+		2022-10-13 16:36:46.373901+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter Last Name"
+		    t =     5.99s And I Enter Last Name
+		    t =     5.99s     Checking existence of `"Last Name" TextField`
+		    t =     6.04s     Tap "Last Name" TextField
+		    t =     6.04s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     6.06s         Find the "Last Name" TextField
+		    t =     6.10s         Check for interrupting elements affecting "Last Name" TextField
+		    t =     6.14s         Synthesize event
+		    t =     6.44s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     6.47s     Type 'Chintha' into "Last Name" TextField
+		    t =     6.47s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     6.49s         Find the "Last Name" TextField
+		    t =     6.53s         Check for interrupting elements affecting "Last Name" TextField
+		    t =     6.57s         Synthesize event
+		    t =     6.90s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:47.324607+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter Last Name" passed
+		2022-10-13 16:36:47.325071+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+		    t =     6.94s And I Click on Get Name Button
+		    t =     6.94s     Tap "Get Name" Button
+		    t =     6.94s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     6.97s         Find the "Get Name" Button
+		    t =     7.02s         Check for interrupting elements affecting "Get Name" Button
+		    t =     7.05s         Synthesize event
+		    t =     7.35s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:47.762531+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+		2022-10-13 16:36:47.762715+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And Close Keypad"
+		    t =     7.38s And Close Keypad
+		    t =     7.38s     Checking existence of `"Return" Button`
+		    t =     7.42s     Tap "Return" Button
+		    t =     7.43s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     7.44s         Find the "Return" Button
+		    t =     7.49s         Check for interrupting elements affecting "Return" Button
+		    t =     7.53s         Synthesize event
+		    t =     7.83s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:48.570972+0530 iOSTestingUITests-Runner[45267:511010] Step: "And Close Keypad" passed
+		2022-10-13 16:36:48.571337+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should See Name being Displayed"
+		    t =     8.19s Then I Should See Name being Displayed
+		    t =     8.19s     Checking existence of `"Name : Usha Sai Chintha" StaticText`
+		2022-10-13 16:36:48.599373+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should See Name being Displayed" passed
+		    t =     8.22s Tear Down
+		Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' passed (8.423 seconds).
+		Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' started.
+		    t =     0.00s Start Test at 2022-10-13 16:36:48.813
+		    t =     0.03s Set Up
+		    t =     0.03s Open com.thoughtworks.iOSTesting
+		    t =     0.05s     Launch com.thoughtworks.iOSTesting
+		    t =     0.05s         Terminate com.thoughtworks.iOSTesting:45278
+		    t =     1.36s         Setting up automation session
+		    t =     2.13s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:52.653000+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+		    t =     3.84s Given App is Ready
+		    t =     3.85s     Checking existence of `"Button" Button`
+		2022-10-13 16:36:52.840801+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+		2022-10-13 16:36:52.841038+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+		    t =     4.03s When I Click on Button
+		    t =     4.03s     Tap "Button" Button
+		    t =     4.03s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     4.05s         Find the "Button" Button
+		    t =     4.08s         Check for interrupting elements affecting "Button" Button
+		    t =     4.11s         Synthesize event
+		    t =     4.43s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:53.254900+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+		2022-10-13 16:36:53.255162+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+		    t =     4.44s And I Click on Get Name Button
+		    t =     4.45s     Tap "Get Name" Button
+		    t =     4.45s         Wait for com.thoughtworks.iOSTesting to idle
+		    t =     4.97s         Find the "Get Name" Button
+		    t =     5.02s         Check for interrupting elements affecting "Get Name" Button
+		    t =     5.05s         Synthesize event
+		    t =     5.34s         Wait for com.thoughtworks.iOSTesting to idle
+		2022-10-13 16:36:54.185345+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+		2022-10-13 16:36:54.185691+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should Not See Name being Displayed"
+		    t =     5.38s Then I Should Not See Name being Displayed
+		    t =     5.38s     Get number of matches for: Elements containing elements matching predicate 'label CONTAINS "Name"'
+		2022-10-13 16:36:54.245449+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should Not See Name being Displayed" passed
+		    t =     5.44s Tear Down
+		Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' passed (5.649 seconds).
+		Test Suite 'CCIButtonView' passed at 2022-10-13 16:36:54.461.
+			 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.077) seconds
+		Test Suite 'iOSTestingUITests-Runner.app' passed at 2022-10-13 16:36:54.465.
+			 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.081) seconds
+		Test Suite 'iOSTestingUITests.xctest' started at 2022-10-13 16:36:54.466
+		Test Suite 'iOSTestingUITests.xctest' passed at 2022-10-13 16:36:54.466.
+			 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+		Test Suite 'Selected tests' passed at 2022-10-13 16:36:54.467.
+			 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.086) seconds
+			-------- Run test suite iOSTestingUITests-Runner.app --------
+			Test Suite 'iOSTestingUITests-Runner.app' started at 2022-10-13 16:36:40.384
+			Test Suite 'CCIButtonView' started at 2022-10-13 16:36:40.384
+			Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' started.
+			    t =     0.00s Start Test at 2022-10-13 16:36:40.387
+			    t =     0.04s Set Up
+			    t =     0.04s Open com.thoughtworks.iOSTesting
+			    t =     0.06s     Launch com.thoughtworks.iOSTesting
+			    t =     0.48s         Setting up automation session
+			    t =     1.36s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:43.591306+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+			    t =     3.21s Given App is Ready
+			    t =     3.22s     Checking existence of `"Button" Button`
+			2022-10-13 16:36:43.798908+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+			2022-10-13 16:36:43.799541+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+			    t =     3.41s When I Click on Button
+			    t =     3.42s     Tap "Button" Button
+			    t =     3.42s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     3.43s         Find the "Button" Button
+			    t =     3.47s         Check for interrupting elements affecting "Button" Button
+			    t =     3.51s         Synthesize event
+			    t =     3.83s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:44.251244+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+			2022-10-13 16:36:44.251540+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter First Name"
+			    t =     3.87s And I Enter First Name
+			    t =     3.87s     Checking existence of `"First Name" TextField`
+			    t =     3.93s     Tap "First Name" TextField
+			    t =     3.93s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     4.38s         Find the "First Name" TextField
+			    t =     4.42s         Check for interrupting elements affecting "First Name" TextField
+			    t =     4.44s         Synthesize event
+			    t =     4.74s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     5.04s     Type 'Usha Sai' into "First Name" TextField
+			    t =     5.04s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     5.51s         Find the "First Name" TextField
+			    t =     5.58s         Check for interrupting elements affecting "First Name" TextField
+			    t =     5.62s         Synthesize event
+			    t =     5.97s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:46.373649+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter First Name" passed
+			2022-10-13 16:36:46.373901+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter Last Name"
+			    t =     5.99s And I Enter Last Name
+			    t =     5.99s     Checking existence of `"Last Name" TextField`
+			    t =     6.04s     Tap "Last Name" TextField
+			    t =     6.04s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     6.06s         Find the "Last Name" TextField
+			    t =     6.10s         Check for interrupting elements affecting "Last Name" TextField
+			    t =     6.14s         Synthesize event
+			    t =     6.44s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     6.47s     Type 'Chintha' into "Last Name" TextField
+			    t =     6.47s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     6.49s         Find the "Last Name" TextField
+			    t =     6.53s         Check for interrupting elements affecting "Last Name" TextField
+			    t =     6.57s         Synthesize event
+			    t =     6.90s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:47.324607+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter Last Name" passed
+			2022-10-13 16:36:47.325071+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+			    t =     6.94s And I Click on Get Name Button
+			    t =     6.94s     Tap "Get Name" Button
+			    t =     6.94s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     6.97s         Find the "Get Name" Button
+			    t =     7.02s         Check for interrupting elements affecting "Get Name" Button
+			    t =     7.05s         Synthesize event
+			    t =     7.35s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:47.762531+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+			2022-10-13 16:36:47.762715+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And Close Keypad"
+			    t =     7.38s And Close Keypad
+			    t =     7.38s     Checking existence of `"Return" Button`
+			    t =     7.42s     Tap "Return" Button
+			    t =     7.43s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     7.44s         Find the "Return" Button
+			    t =     7.49s         Check for interrupting elements affecting "Return" Button
+			    t =     7.53s         Synthesize event
+			    t =     7.83s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:48.570972+0530 iOSTestingUITests-Runner[45267:511010] Step: "And Close Keypad" passed
+			2022-10-13 16:36:48.571337+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should See Name being Displayed"
+			    t =     8.19s Then I Should See Name being Displayed
+			    t =     8.19s     Checking existence of `"Name : Usha Sai Chintha" StaticText`
+			2022-10-13 16:36:48.599373+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should See Name being Displayed" passed
+			    t =     8.22s Tear Down
+			Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' passed (8.423 seconds).
+			Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' started.
+			    t =     0.00s Start Test at 2022-10-13 16:36:48.813
+			    t =     0.03s Set Up
+			    t =     0.03s Open com.thoughtworks.iOSTesting
+			    t =     0.05s     Launch com.thoughtworks.iOSTesting
+			    t =     0.05s         Terminate com.thoughtworks.iOSTesting:45278
+			    t =     1.36s         Setting up automation session
+			    t =     2.13s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:52.653000+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+			    t =     3.84s Given App is Ready
+			    t =     3.85s     Checking existence of `"Button" Button`
+			2022-10-13 16:36:52.840801+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+			2022-10-13 16:36:52.841038+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+			    t =     4.03s When I Click on Button
+			    t =     4.03s     Tap "Button" Button
+			    t =     4.03s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     4.05s         Find the "Button" Button
+			    t =     4.08s         Check for interrupting elements affecting "Button" Button
+			    t =     4.11s         Synthesize event
+			    t =     4.43s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:53.254900+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+			2022-10-13 16:36:53.255162+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+			    t =     4.44s And I Click on Get Name Button
+			    t =     4.45s     Tap "Get Name" Button
+			    t =     4.45s         Wait for com.thoughtworks.iOSTesting to idle
+			    t =     4.97s         Find the "Get Name" Button
+			    t =     5.02s         Check for interrupting elements affecting "Get Name" Button
+			    t =     5.05s         Synthesize event
+			    t =     5.34s         Wait for com.thoughtworks.iOSTesting to idle
+			2022-10-13 16:36:54.185345+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+			2022-10-13 16:36:54.185691+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should Not See Name being Displayed"
+			    t =     5.38s Then I Should Not See Name being Displayed
+			    t =     5.38s     Get number of matches for: Elements containing elements matching predicate 'label CONTAINS "Name"'
+			2022-10-13 16:36:54.245449+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should Not See Name being Displayed" passed
+			    t =     5.44s Tear Down
+			Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' passed (5.649 seconds).
+			Test Suite 'CCIButtonView' passed at 2022-10-13 16:36:54.461.
+				 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.077) seconds
+			Test Suite 'iOSTestingUITests-Runner.app' passed at 2022-10-13 16:36:54.465.
+				 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.081) seconds
+				-------- Run test suite CCIButtonView --------
+				Test Suite 'CCIButtonView' started at 2022-10-13 16:36:40.384
+				Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' started.
+				    t =     0.00s Start Test at 2022-10-13 16:36:40.387
+				    t =     0.04s Set Up
+				    t =     0.04s Open com.thoughtworks.iOSTesting
+				    t =     0.06s     Launch com.thoughtworks.iOSTesting
+				    t =     0.48s         Setting up automation session
+				    t =     1.36s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:43.591306+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+				    t =     3.21s Given App is Ready
+				    t =     3.22s     Checking existence of `"Button" Button`
+				2022-10-13 16:36:43.798908+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+				2022-10-13 16:36:43.799541+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+				    t =     3.41s When I Click on Button
+				    t =     3.42s     Tap "Button" Button
+				    t =     3.42s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     3.43s         Find the "Button" Button
+				    t =     3.47s         Check for interrupting elements affecting "Button" Button
+				    t =     3.51s         Synthesize event
+				    t =     3.83s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:44.251244+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+				2022-10-13 16:36:44.251540+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter First Name"
+				    t =     3.87s And I Enter First Name
+				    t =     3.87s     Checking existence of `"First Name" TextField`
+				    t =     3.93s     Tap "First Name" TextField
+				    t =     3.93s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     4.38s         Find the "First Name" TextField
+				    t =     4.42s         Check for interrupting elements affecting "First Name" TextField
+				    t =     4.44s         Synthesize event
+				    t =     4.74s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     5.04s     Type 'Usha Sai' into "First Name" TextField
+				    t =     5.04s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     5.51s         Find the "First Name" TextField
+				    t =     5.58s         Check for interrupting elements affecting "First Name" TextField
+				    t =     5.62s         Synthesize event
+				    t =     5.97s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:46.373649+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter First Name" passed
+				2022-10-13 16:36:46.373901+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter Last Name"
+				    t =     5.99s And I Enter Last Name
+				    t =     5.99s     Checking existence of `"Last Name" TextField`
+				    t =     6.04s     Tap "Last Name" TextField
+				    t =     6.04s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     6.06s         Find the "Last Name" TextField
+				    t =     6.10s         Check for interrupting elements affecting "Last Name" TextField
+				    t =     6.14s         Synthesize event
+				    t =     6.44s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     6.47s     Type 'Chintha' into "Last Name" TextField
+				    t =     6.47s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     6.49s         Find the "Last Name" TextField
+				    t =     6.53s         Check for interrupting elements affecting "Last Name" TextField
+				    t =     6.57s         Synthesize event
+				    t =     6.90s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:47.324607+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter Last Name" passed
+				2022-10-13 16:36:47.325071+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+				    t =     6.94s And I Click on Get Name Button
+				    t =     6.94s     Tap "Get Name" Button
+				    t =     6.94s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     6.97s         Find the "Get Name" Button
+				    t =     7.02s         Check for interrupting elements affecting "Get Name" Button
+				    t =     7.05s         Synthesize event
+				    t =     7.35s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:47.762531+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+				2022-10-13 16:36:47.762715+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And Close Keypad"
+				    t =     7.38s And Close Keypad
+				    t =     7.38s     Checking existence of `"Return" Button`
+				    t =     7.42s     Tap "Return" Button
+				    t =     7.43s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     7.44s         Find the "Return" Button
+				    t =     7.49s         Check for interrupting elements affecting "Return" Button
+				    t =     7.53s         Synthesize event
+				    t =     7.83s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:48.570972+0530 iOSTestingUITests-Runner[45267:511010] Step: "And Close Keypad" passed
+				2022-10-13 16:36:48.571337+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should See Name being Displayed"
+				    t =     8.19s Then I Should See Name being Displayed
+				    t =     8.19s     Checking existence of `"Name : Usha Sai Chintha" StaticText`
+				2022-10-13 16:36:48.599373+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should See Name being Displayed" passed
+				    t =     8.22s Tear Down
+				Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' passed (8.423 seconds).
+				Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' started.
+				    t =     0.00s Start Test at 2022-10-13 16:36:48.813
+				    t =     0.03s Set Up
+				    t =     0.03s Open com.thoughtworks.iOSTesting
+				    t =     0.05s     Launch com.thoughtworks.iOSTesting
+				    t =     0.05s         Terminate com.thoughtworks.iOSTesting:45278
+				    t =     1.36s         Setting up automation session
+				    t =     2.13s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:52.653000+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+				    t =     3.84s Given App is Ready
+				    t =     3.85s     Checking existence of `"Button" Button`
+				2022-10-13 16:36:52.840801+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+				2022-10-13 16:36:52.841038+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+				    t =     4.03s When I Click on Button
+				    t =     4.03s     Tap "Button" Button
+				    t =     4.03s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     4.05s         Find the "Button" Button
+				    t =     4.08s         Check for interrupting elements affecting "Button" Button
+				    t =     4.11s         Synthesize event
+				    t =     4.43s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:53.254900+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+				2022-10-13 16:36:53.255162+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+				    t =     4.44s And I Click on Get Name Button
+				    t =     4.45s     Tap "Get Name" Button
+				    t =     4.45s         Wait for com.thoughtworks.iOSTesting to idle
+				    t =     4.97s         Find the "Get Name" Button
+				    t =     5.02s         Check for interrupting elements affecting "Get Name" Button
+				    t =     5.05s         Synthesize event
+				    t =     5.34s         Wait for com.thoughtworks.iOSTesting to idle
+				2022-10-13 16:36:54.185345+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+				2022-10-13 16:36:54.185691+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should Not See Name being Displayed"
+				    t =     5.38s Then I Should Not See Name being Displayed
+				    t =     5.38s     Get number of matches for: Elements containing elements matching predicate 'label CONTAINS "Name"'
+				2022-10-13 16:36:54.245449+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should Not See Name being Displayed" passed
+				    t =     5.44s Tear Down
+				Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' passed (5.649 seconds).
+				Test Suite 'CCIButtonView' passed at 2022-10-13 16:36:54.461.
+					 Executed 2 tests, with 0 failures (0 unexpected) in 14.072 (14.077) seconds
+					-------- Run test case navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed --------
+					Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' started.
+					    t =     0.00s Start Test at 2022-10-13 16:36:40.387
+					    t =     0.04s Set Up
+					    t =     0.04s Open com.thoughtworks.iOSTesting
+					    t =     0.06s     Launch com.thoughtworks.iOSTesting
+					    t =     0.48s         Setting up automation session
+					    t =     1.36s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:43.591306+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+					    t =     3.21s Given App is Ready
+					    t =     3.22s     Checking existence of `"Button" Button`
+					2022-10-13 16:36:43.798908+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+					2022-10-13 16:36:43.799541+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+					    t =     3.41s When I Click on Button
+					    t =     3.42s     Tap "Button" Button
+					    t =     3.42s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     3.43s         Find the "Button" Button
+					    t =     3.47s         Check for interrupting elements affecting "Button" Button
+					    t =     3.51s         Synthesize event
+					    t =     3.83s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:44.251244+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+					2022-10-13 16:36:44.251540+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter First Name"
+					    t =     3.87s And I Enter First Name
+					    t =     3.87s     Checking existence of `"First Name" TextField`
+					    t =     3.93s     Tap "First Name" TextField
+					    t =     3.93s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     4.38s         Find the "First Name" TextField
+					    t =     4.42s         Check for interrupting elements affecting "First Name" TextField
+					    t =     4.44s         Synthesize event
+					    t =     4.74s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     5.04s     Type 'Usha Sai' into "First Name" TextField
+					    t =     5.04s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     5.51s         Find the "First Name" TextField
+					    t =     5.58s         Check for interrupting elements affecting "First Name" TextField
+					    t =     5.62s         Synthesize event
+					    t =     5.97s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:46.373649+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter First Name" passed
+					2022-10-13 16:36:46.373901+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Enter Last Name"
+					    t =     5.99s And I Enter Last Name
+					    t =     5.99s     Checking existence of `"Last Name" TextField`
+					    t =     6.04s     Tap "Last Name" TextField
+					    t =     6.04s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     6.06s         Find the "Last Name" TextField
+					    t =     6.10s         Check for interrupting elements affecting "Last Name" TextField
+					    t =     6.14s         Synthesize event
+					    t =     6.44s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     6.47s     Type 'Chintha' into "Last Name" TextField
+					    t =     6.47s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     6.49s         Find the "Last Name" TextField
+					    t =     6.53s         Check for interrupting elements affecting "Last Name" TextField
+					    t =     6.57s         Synthesize event
+					    t =     6.90s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:47.324607+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Enter Last Name" passed
+					2022-10-13 16:36:47.325071+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+					    t =     6.94s And I Click on Get Name Button
+					    t =     6.94s     Tap "Get Name" Button
+					    t =     6.94s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     6.97s         Find the "Get Name" Button
+					    t =     7.02s         Check for interrupting elements affecting "Get Name" Button
+					    t =     7.05s         Synthesize event
+					    t =     7.35s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:47.762531+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+					2022-10-13 16:36:47.762715+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And Close Keypad"
+					    t =     7.38s And Close Keypad
+					    t =     7.38s     Checking existence of `"Return" Button`
+					    t =     7.42s     Tap "Return" Button
+					    t =     7.43s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     7.44s         Find the "Return" Button
+					    t =     7.49s         Check for interrupting elements affecting "Return" Button
+					    t =     7.53s         Synthesize event
+					    t =     7.83s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:48.570972+0530 iOSTestingUITests-Runner[45267:511010] Step: "And Close Keypad" passed
+					2022-10-13 16:36:48.571337+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should See Name being Displayed"
+					    t =     8.19s Then I Should See Name being Displayed
+					    t =     8.19s     Checking existence of `"Name : Usha Sai Chintha" StaticText`
+					2022-10-13 16:36:48.599373+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should See Name being Displayed" passed
+					    t =     8.22s Tear Down
+					Test Case '-[CCIButtonView navigateToButtonViewFillInDetailsAndVerifyNameBeingDisplayed]' passed (8.423 seconds).
+					-------- Run test case navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI --------
+					Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' started.
+					    t =     0.00s Start Test at 2022-10-13 16:36:48.813
+					    t =     0.03s Set Up
+					    t =     0.03s Open com.thoughtworks.iOSTesting
+					    t =     0.05s     Launch com.thoughtworks.iOSTesting
+					    t =     0.05s         Terminate com.thoughtworks.iOSTesting:45278
+					    t =     1.36s         Setting up automation session
+					    t =     2.13s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:52.653000+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Given App is Ready"
+					    t =     3.84s Given App is Ready
+					    t =     3.85s     Checking existence of `"Button" Button`
+					2022-10-13 16:36:52.840801+0530 iOSTestingUITests-Runner[45267:511010] Step: "Given App is Ready" passed
+					2022-10-13 16:36:52.841038+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "When I Click on Button"
+					    t =     4.03s When I Click on Button
+					    t =     4.03s     Tap "Button" Button
+					    t =     4.03s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     4.05s         Find the "Button" Button
+					    t =     4.08s         Check for interrupting elements affecting "Button" Button
+					    t =     4.11s         Synthesize event
+					    t =     4.43s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:53.254900+0530 iOSTestingUITests-Runner[45267:511010] Step: "When I Click on Button" passed
+					2022-10-13 16:36:53.255162+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "And I Click on Get Name Button"
+					    t =     4.44s And I Click on Get Name Button
+					    t =     4.45s     Tap "Get Name" Button
+					    t =     4.45s         Wait for com.thoughtworks.iOSTesting to idle
+					    t =     4.97s         Find the "Get Name" Button
+					    t =     5.02s         Check for interrupting elements affecting "Get Name" Button
+					    t =     5.05s         Synthesize event
+					    t =     5.34s         Wait for com.thoughtworks.iOSTesting to idle
+					2022-10-13 16:36:54.185345+0530 iOSTestingUITests-Runner[45267:511010] Step: "And I Click on Get Name Button" passed
+					2022-10-13 16:36:54.185691+0530 iOSTestingUITests-Runner[45267:511010] Currently executing: "Then I Should Not See Name being Displayed"
+					    t =     5.38s Then I Should Not See Name being Displayed
+					    t =     5.38s     Get number of matches for: Elements containing elements matching predicate 'label CONTAINS "Name"'
+					2022-10-13 16:36:54.245449+0530 iOSTestingUITests-Runner[45267:511010] Step: "Then I Should Not See Name being Displayed" passed
+					    t =     5.44s Tear Down
+					Test Case '-[CCIButtonView navigateToButtonViewAndVerifyWhenGetNameButtonIsClickedNoNameBeingDisplayedOnUI]' passed (5.649 seconds).
+			-------- Run test suite iOSTestingUITests.xctest --------
+			Test Suite 'iOSTestingUITests.xctest' started at 2022-10-13 16:36:54.466
+			Test Suite 'iOSTestingUITests.xctest' passed at 2022-10-13 16:36:54.466.
+				 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
