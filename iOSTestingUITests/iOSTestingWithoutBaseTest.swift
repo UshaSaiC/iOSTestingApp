@@ -3,15 +3,29 @@ import XCTest
 final class iOSTestingWithoutBaseTest: XCTestCase {
     
     func testExampleViaRecording() throws {
+        
         let app = XCUIApplication()
         app.launch()
+        let swipeButton = app.collectionViews/*@START_MENU_TOKEN@*/.buttons["Swipe"]/*[[".cells",".buttons[\"Horizontal Swipe\"]",".buttons[\"Swipe\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
+                
+        swipeButton.tap()
+        swipeButton.tap()
         
-        app.collectionViews/*@START_MENU_TOKEN@*/.buttons["Swipe"]/*[[".cells",".buttons[\"Horizontal Swipe\"]",".buttons[\"Swipe\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
-        let elementsQuery = app.scrollViews.otherElements
-        elementsQuery.staticTexts["Item 1"].swipeRight()
-        elementsQuery.staticTexts["Item 2"].swipeLeft()
-        elementsQuery.staticTexts["Item 14"].tap()
-        XCTAssertTrue(elementsQuery.staticTexts["Item 20"].exists)
+        let scrollViewsQuery = app.scrollViews
+        scrollViewsQuery.otherElements.containing(.staticText, identifier:"Swipe").element.swipeLeft()
+        
+        let item1StaticText = scrollViewsQuery.otherElements.staticTexts["Item 1"]
+        item1StaticText.tap()
+        item1StaticText/*@START_MENU_TOKEN@*/.press(forDuration: 1.0);/*[[".tap()",".press(forDuration: 1.0);"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+        XCTAssertTrue(scrollViewsQuery.otherElements.staticTexts["Item 20"].exists)
+        XCTAssertFalse(scrollViewsQuery.otherElements.staticTexts["Item 21"].exists)
+
+        
+                
+    }
+    
+    func thisIsNotATest() {
+        
     }
     
     func testNavigateToButtonsPageAndGetName() {
